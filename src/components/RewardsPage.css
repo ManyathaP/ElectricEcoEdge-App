@@ -1,0 +1,38 @@
+/* src/components/RewardsPage.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4a90e2;
+}
+
+.points-card {
+    background-color: #ffd700;
+}
+
+.main {
+    background-color: #f0f4f8;
+}
+
+.tabs {
+    border-bottom: 2px solid #ddd;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.reward-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+

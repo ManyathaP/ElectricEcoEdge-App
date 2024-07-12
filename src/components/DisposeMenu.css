@@ -1,0 +1,72 @@
+.dispose-menu-container {
+    text-align: center;
+}
+
+.dispose-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dispose-item {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.dispose-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dispose-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dispose-item:hover {
+    transform: scale(1.05);
+}
+
+/* Overlay for hover effect */
+.dispose-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dispose-item:hover .overlay {
+    opacity: 1;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.logos {
+    max-width: 140px;
+    width: 100%;
+}
+.mbs-8 {
+    margin-bottom: 2rem;
+}

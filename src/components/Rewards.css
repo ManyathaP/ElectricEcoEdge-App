@@ -1,0 +1,28 @@
+.rewards-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .rewards-select {
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .rewards-select option {
+    color: black;
+  }
+  
+  .rewards-submit {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
