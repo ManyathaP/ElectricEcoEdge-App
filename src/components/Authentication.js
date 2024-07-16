@@ -214,7 +214,7 @@ const Authentication = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`${API_BASE_URL}/api/v1/customers/login`, { email, password });
+            const response = await axios.post(`https://electricecoedge-spring-boot-production.up.railway.app/api/v1/customers/login`, { email, password });
             console.log('Login successful', response.data);
             toast.success('Login successful!');
             setUser(response.data);
